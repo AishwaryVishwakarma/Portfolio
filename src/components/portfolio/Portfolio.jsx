@@ -24,7 +24,7 @@ const Portfolio = () => {
                 Github
               </a>
               <a
-                href="https://splendorous-banoffee-74d957.netlify.app/"
+                href="https://text-utility-webapp.netlify.app/"
                 className="btn btn-primary"
                 target="_blank"
               >
@@ -68,7 +68,7 @@ const Portfolio = () => {
                 Github
               </a>
               <a
-                href="https://incandescent-salamander-06ee7a.netlify.app/"
+                href="https://real-state-webapp.netlify.app/"
                 className="btn btn-primary"
                 target="_blank"
               >
@@ -90,7 +90,7 @@ const Portfolio = () => {
                 Github
               </a>
               <a
-                href="https://verdant-sable-9f43fb.netlify.app/"
+                href="https://recipe-finder-appliaction.netlify.app/"
                 className="btn btn-primary"
                 target="_blank"
               >
