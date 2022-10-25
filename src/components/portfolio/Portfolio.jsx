@@ -4,6 +4,8 @@ import Text_Util from "../../assets/text-utils.png";
 import News from "../../assets/newsapp.png";
 import RealState from "../../assets/Real-State.PNG"
 import RecipeFinder from "../../assets/Recipe_Finder.PNG";
+import NotesPlatform from "../../assets/Notes_Platform.jpg";
+import CRUD from "../../assets/CRUD.jpg";
 
 const Portfolio = () => {
   return (
@@ -96,6 +98,50 @@ const Portfolio = () => {
               >
                 Live Demo
               </a>
+            </div>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={NotesPlatform} alt="Real State" />
+            <h3>Notes Sharing Platform</h3>
+            <div className="portfolio__item-cta">
+              <a
+                href="https://github.com/AishwaryVishwakarma/NotesApp"
+                className="btn"
+                target="_blank"
+              >
+                Github
+              </a>
+              <a
+                href="https://notes-sharing-platform.netlify.app/"
+                className="btn btn-primary"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={CRUD} alt="Real State" />
+            <h3>Contact Management App - CRUD</h3>
+            <div className="portfolio__item-cta">
+              <a
+                href="https://github.com/AishwaryVishwakarma/Contact-Management-CRUD"
+                className="btn"
+                target="_blank"
+              >
+                Github
+              </a>
+              {/* <a
+                href="https://notes-sharing-platform.netlify.app/"
+                className="btn btn-primary"
+                target="_blank"
+              >
+                Live Demo
+              </a> */}
             </div>
           </div>
         </article>
