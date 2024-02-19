@@ -1,17 +1,22 @@
-import React from "react";
-import { BsLinkedin } from "react-icons/bs";
-import { FaGithub } from "react-icons/fa";
+import React from 'react';
+import { BsLinkedin } from 'react-icons/bs';
+import { FaGithub } from 'react-icons/fa';
 
 const HeaderSocials = () => {
   return (
-    <div className="header__socials">
+    <div className='header__socials'>
       <a
-        href="https://www.linkedin.com/in/aishwary-vishwakarma-b613601b3/"
-        target="_blank"
+        href='https://www.linkedin.com/in/aishwary-vishwakarma-b613601b3/'
+        target='_blank'
+        rel='noreferrer'
       >
         <BsLinkedin />
       </a>
-      <a href="https://github.com/AishwaryVishwakarma/" target="_blank">
+      <a
+        href='https://github.com/AishwaryVishwakarma/'
+        target='_blank'
+        rel='noreferrer'
+      >
         <FaGithub />
       </a>
     </div>
